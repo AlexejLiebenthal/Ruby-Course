@@ -1,0 +1,14 @@
+{
+  "private": "true",
+  "name": "ruby-course",
+  "version": "0.1.0",
+  "repository": "https://github.com/AlexejLiebenthal/Ruby-Course.git",
+  "author": "Alexej Liebenthal <alexej.liebenthal@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^7.0.0"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  }
+}
