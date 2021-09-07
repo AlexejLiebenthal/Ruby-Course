@@ -1,4 +1,6 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-rubocop -A
+RB_FILES="$(git diff --cached --name-only --diff-filter=AMCR | grep "\.rb$" | tr '\n' ' ')"
+rubocop -a $RB_FILES
+git add $RB_FILES
