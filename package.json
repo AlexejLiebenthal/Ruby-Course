@@ -15,7 +15,7 @@
   },
   "lint-staged": {
     "*.rb": [
-      "rubocop --auto-correct"
+      "rubocop --auto-correct-all"
     ]
   }
 }
